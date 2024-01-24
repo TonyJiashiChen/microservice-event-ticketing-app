@@ -4,6 +4,8 @@ import { json } from 'body-parser';
 const app = express();
 app.use(json());
 
+
+// to commit
 app.get('/api/users/currentuser', (req, res) => {
     res.send('Hi there')
 })
