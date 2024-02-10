@@ -3,6 +3,8 @@ import { body } from 'express-validator';
 
 const router = express.Router();
 
+
+// to commit
 router.post('/api/users/signup', [
     body('email')
         .isEmail()
